@@ -13,7 +13,7 @@ class WasRun(TestCase):
     def testMethod(self):
         self.wasRun = 1
 
-class TestCaseTest(TestCase):
+class TestCaseTest(TestCase): # test framework
     def testRunning(self):
         test = WasRun("testMethod")
         assert(not test.wasRun)
